@@ -36,8 +36,6 @@ with col3:
     st.image('일반인.png')
 with col4:
     st.image('창업.png')
-with col5:
-    st.image('아이디어상.png')
 ''
 col1, col2, col3, col4, col5 = st.columns([1, 1, 1, 1, 1])
 with col1:
@@ -49,7 +47,7 @@ with col3:
 with col4:
     st.link_button("기사4 💬", "https://www.ccdailynews.com/news/articleView.html?idxno=2235833")
 with col5:
-    st.link_button("기사4 💬", "https://fire.konyang.ac.kr/cop/bbs/BBSMSTR_000000001240/selectBoardArticle.do?nttId=246512&pageIndex=1&searchCnd=&searchWrd=")
+    st.link_button("기사5 💬", "https://fire.konyang.ac.kr/cop/bbs/BBSMSTR_000000001240/selectBoardArticle.do?nttId=246512&pageIndex=1&searchCnd=&searchWrd=")
 ''
 import sys
 sys.exit()
