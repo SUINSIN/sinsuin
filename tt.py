@@ -37,7 +37,7 @@ with col3:
 with col4:
     st.image('창업.png')
 with col5:
-    st.image('아이디어상.png')
+    st.image('아이디어상.jpg')
 ''
 col1, col2, col3, col4, col5 = st.columns([1, 1, 1, 1, 1])
 with col1:
