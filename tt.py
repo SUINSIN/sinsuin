@@ -25,7 +25,7 @@ col1, col2 = st.columns([1, 1])
 with col1:
     st.write('최종학력: 건양대학교 졸업, 자격증: 위험물산업기사, 산업안전기사, 산업위생관리기사')
 with col2:
-    st.write('수상경력: 2022국립소방연구원공모전우수상, 2022한국산학기술학회추계학술대회우수논문상, 2023충청남도일반인심폐소생술 최우수상, 2023충청권창업경진대회최우수상')
+    st.write('수상경력: 2022국립소방연구원공모전우수상, 2022한국산학기술학회추계학술대회우수논문상, 2023충청남도일반인심폐소생술 최우수상, 2023충청권창업경진대회최우수상, 2023한국산학기술학회추계학술대회캡스톤디자인 아이디어상 수상')
 ''
 col1, col2, col3, col4 = st.columns([1, 1, 1, 1])
 with col1:
@@ -36,6 +36,8 @@ with col3:
     st.image('일반인.png')
 with col4:
     st.image('창업.png')
+with col5:
+    st.image('아이디어상.png')
 ''
 col1, col2, col3, col4, col5 = st.columns([1, 1, 1, 1, 1])
 with col1:
@@ -46,6 +48,8 @@ with col3:
     st.link_button("기사3 💬", "https://www.joongdo.co.kr/web/view.php?key=20230413010004025")
 with col4:
     st.link_button("기사4 💬", "https://www.ccdailynews.com/news/articleView.html?idxno=2235833")
+with col5:
+    st.link_button("기사4 💬", "https://fire.konyang.ac.kr/cop/bbs/BBSMSTR_000000001240/selectBoardArticle.do?nttId=246512&pageIndex=1&searchCnd=&searchWrd=")
 ''
 import sys
 sys.exit()
