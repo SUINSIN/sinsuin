@@ -6,7 +6,7 @@ os.system('cls')
 
 col1, col2 = st.columns([1, 1])
 with col1:
-    st.image('my.png', width=260)
+    st.image('수인증명.jpg', width=260)
 with col2:
     st.write('📌성장가능성이 무한한 인재📌')
     ('')
