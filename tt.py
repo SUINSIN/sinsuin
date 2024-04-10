@@ -6,7 +6,7 @@ os.system('cls')
 
 col1, col2 = st.columns([1, 1])
 with col1:
-    st.image('수인증명.jpg', width=260)
+    st.image('수인사진2.jpg', width=260)
 with col2:
     st.write('📌안 뽑으시면 후회합니다📌')
     ('')
